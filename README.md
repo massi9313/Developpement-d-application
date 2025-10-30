@@ -2,7 +2,7 @@
 # Atelier 05 – Gestion des Exceptions
 **Cours :** Développement d’applications  
 **Professeur :** Youness Boukouchi  
-**Étudiant :** Massi Mameri (300151841)
+**Étudiant :** Massinissa Mameri (300151841)
 
 ## Structure
 Chaque exercice illustre la gestion des exceptions en Dart :
