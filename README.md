@@ -43,7 +43,7 @@ L’application est statique, mais elle illustre les principes essentiels de la 
 ---
 
 ## 📸 Captures d’écran
-![wait]('https://github.com/user-attachments/assets/40ef2670-4c0b-435e-a00f-9ad1f12a27b0')
+![wait](https://github.com/user-attachments/assets/40ef2670-4c0b-435e-a00f-9ad1f12a27b0)
 ![wait]('https://github.com/user-attachments/assets/a367e527-1a9b-4497-9e33-dee82a8ed27d')
 ![wait]('https://github.com/user-attachments/assets/9aa22d0d-fec9-4ac7-aa31-675f699cb621')
 
