@@ -40,7 +40,7 @@ class MainApp extends StatelessWidget {
                      ),
                     ),
                     Stack(
-                      alignment: Alignment.center,
+                      alignment: Alignment.topLeft,
                       children: [
                         Container(width: 200, height: 200, color: Colors.blue,),
                         Icon(Icons.star, size: 100, color: Colors.amber),
