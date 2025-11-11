@@ -57,6 +57,16 @@ class MainApp extends StatelessWidget {
                         Icon(Icons.settings,color: Colors.grey, size: 40),
                         Icon(Icons.phone, color: Colors.green, size: 40,)
                       ],
+                    ),
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Text('titre pricipal', style: TextStyle(fontSize: 24)),
+                        SizedBox(height: 20),
+                        Text('sous-titre ou description', style: TextStyle(fontSize: 16)),
+                        Icon(Icons.thumb_up, color: Colors.green, size: 40),
+                      ],
                     )
             ],
           ),
