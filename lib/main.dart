@@ -16,6 +16,7 @@ class MainApp extends StatelessWidget {
             children: [
               Text('hello world'),
               Text('bienvenue dans mon atelier'),
+
               Container(
                 margin: EdgeInsets.all(20),
                 padding: EdgeInsets.all(16),
@@ -24,17 +25,29 @@ class MainApp extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 ),
                 child: Text('boite stylisee avec container',
-                style: TextStyle(color: Colors.white, fontSize: 18),
-                )),
+                style: TextStyle(color: Colors.white, fontSize: 18,),
+                ),
+               ),
+
                 Container(
-                  margin: EdgeInsets.all(25),
+                  margin: EdgeInsets.all(25),  
                  padding: EdgeInsets.all(15),
                   decoration: BoxDecoration(
                     color: const Color.fromARGB(197, 10, 84, 3),
                     borderRadius: BorderRadius.circular(11)),
                     child: Text('my second box',
-                    style: TextStyle(color: const Color.fromARGB(255, 252, 252, 252), fontSize: 17)),
-                )
+                    style: TextStyle(color: const Color.fromARGB(255, 252, 252, 252), fontSize: 17, ),
+                     ),
+                    ),
+                    Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        Container(width: 200, height: 200, color: Colors.blue,),
+                        Icon(Icons.star, size: 100, color: Colors.amber),
+                        Text("superpose !",
+                        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),)
+                      ],
+                    )
             ],
           ),
         ), 
