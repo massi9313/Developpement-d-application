@@ -40,12 +40,22 @@ class MainApp extends StatelessWidget {
                      ),
                     ),
                     Stack(
-                      alignment: Alignment.topLeft,
+                      alignment: Alignment.center,
                       children: [
                         Container(width: 200, height: 200, color: Colors.blue,),
                         Icon(Icons.star, size: 100, color: Colors.amber),
                         Text("superpose !",
                         style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),)
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Icon(Icons.home, color: Colors.blue, size: 40),
+                        Icon(Icons.star, color: Colors.amber, size: 40),
+                        Icon(Icons.settings,color: Colors.grey, size: 40),
+                        Icon(Icons.phone, color: Colors.green, size: 40,)
                       ],
                     )
             ],
