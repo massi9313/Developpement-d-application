@@ -49,7 +49,7 @@ class MainApp extends StatelessWidget {
                       ],
                     ),
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Icon(Icons.home, color: const Color.fromARGB(255, 49, 32, 123), size: 40),
@@ -59,8 +59,8 @@ class MainApp extends StatelessWidget {
                       ],
                     ),
                     Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Text('titre pricipal', style: TextStyle(fontSize: 28)),
                         SizedBox(height: 20),
